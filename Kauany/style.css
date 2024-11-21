@@ -44,22 +44,22 @@ header h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     text-align: center;
+    overflow: hidden;
 }
 
 /* Imagem nos Containers */
 .box img.box-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* Deixa a imagem circular */
-    margin-bottom: 10px;
-    object-fit: cover;
+    width: 100%;
+    height: 50%; /* Altura da metade do container */
+    object-fit: cover; /* Faz a imagem cobrir toda a área disponível */
+    border-bottom: 2px solid #6200ea;
 }
 
 /* Títulos e Parágrafos */
 .box h2 {
     font-size: 1.5em;
     color: #6200ea;
-    margin: 10px 0;
+    margin: 15px 0 10px;
 }
 
 .box p {
