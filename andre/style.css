@@ -1,33 +1,34 @@
-.login-container {
+body{
+    background-color: #181818;
+}
+.container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+    background-color: black;
+    height: 500px;
     align-items: center;
-    width: 100%;
-    
-}
-.Evolucao{
-    background-color:#181818;
-    width: 300px;
-    border: 2px 2px solid white;
+    margin-top: 150px;
     border-radius: 30px;
-    padding: 10px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1em;
 }
-.login-box {
-    width: 600px;
-    padding: 40px;
-    background-color:#181818;
-    
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
+h1{
+color: #ffffff;
+display: flex;
+justify-content: center;
+height: 100px;
+}
 
+button{ 
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: -10px;
+    border-radius: 100px;
+    color:#ffffff;
+    background-color: #000000;
+}
+button:hover{
+    background-color: #3BE477;
 }

@@ -7,27 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-box">
-            <a href="login.html"><h1 class="Evoluçao">Evoluçao</h1></a>
+           
             
-            <div class="">
-            <button class="Evolucao">
+            <div class="container"> 
+                <h1>Evoluçao</h1>
+            <button>
                 
                 Primeiro Projeto
             </button>
             <br><br>
-            <button class="Evolucao">
+            <button>
                 
                 Projeto Atual
             </button>
             <br><br>
-            <button class="Evolucao">
+            <button>
                 
                 Dificuldades Encontradas
             </button>
             <br><br>
-            <button class="Evolucao">
+            <button>
                 Evolucao Pessoal
             </button>
         </div>
