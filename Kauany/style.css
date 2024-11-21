@@ -1,18 +1,85 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-h1 {
+    margin: 0;
+    padding: 0;
+    background: url('fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
 }
 
-h2 {
-    color: #555;
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(98, 0, 234, 0.9); /* Fundo semi-transparente */
+    color: white;
 }
 
-p {
-    line-height: 1.6;
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Container Principal */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo translúcido para containers */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Estilo dos Boxes */
+.box {
+    flex: 1 1 calc(30% - 20px); /* Cada box ocupa ~30% do espaço disponível */
+    background-color: white;
+    border: 2px solid #6200ea;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+/* Imagem nos Containers */
+.box img.box-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Deixa a imagem circular */
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+/* Títulos e Parágrafos */
+.box h2 {
+    font-size: 1.5em;
+    color: #6200ea;
+    margin: 10px 0;
+}
+
+.box p {
+    line-height: 1.5;
+}
+
+/* Efeito de Hover */
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        flex: 1 1 100%;
+    }
 }

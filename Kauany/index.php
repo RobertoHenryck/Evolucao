@@ -7,15 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Minha Evolução</h1>
+    <header>
+        <h1>Minha Evolução</h1>
+    </header>
 
-    <h2>Primeiro Projeto</h2>
-    <p>Descrição do primeiro projeto, suas dificuldades e aprendizagens.</p>
+    <main class="container">
+        <div class="box">
+            <img src="primeiro-projeto.jpg" alt="Primeiro Projeto" class="box-image">
+            <h2>Primeiro Projeto</h2>
+            <p>Descreva o primeiro projeto: o que foi feito, quais foram os desafios e aprendizados.</p>
+        </div>
 
-    <h2>Projeto Atual</h2>
-    <p>Descrição do projeto atual, desafios enfrentados e como você resolveu os problemas.</p>
+        <div class="box">
+            <img src="projeto-atual.jpg" alt="Projeto Atual" class="box-image">
+            <h2>Projeto Atual</h2>
+            <p>Descreva o projeto atual: objetivos, dificuldades encontradas e como você as superou.</p>
+        </div>
 
-    <h2>Evolução</h2>
-    <p>Reflexão sobre o progresso desde o primeiro projeto até agora.</p>
+        <div class="box">
+            <img src="evolucao.jpg" alt="Evolução" class="box-image">
+            <h2>Evolução</h2>
+            <p>Reflexão sobre o progresso: habilidades adquiridas, como você cresceu tecnicamente e criativamente desde o primeiro projeto até agora.</p>
+        </div>
+    </main>
 </body>
 </html>
