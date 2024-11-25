@@ -60,8 +60,8 @@ body{
             Minha Evolução
         </h1>
         <a href="primeiro_projeto.html">Meu primeiro projeto</a>
-        <a href="#">Meu projeto atual</a>
-        <a href="#">Dificuldades</a>
+        <a href="projeto_atual.html">Meu projeto atual</a>
+        <a href="dificuldades.html">Dificuldades</a>
         <a href="#">Evolução Pessoal</a>
     </div>
 
