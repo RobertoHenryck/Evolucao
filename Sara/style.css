@@ -201,7 +201,7 @@ ul li a:hover {
 .imgprofissoes{
     height: 250px;
     width: 450px;
-    border: 5px solid var(--color-text-black);
+    border: 5px solid var(--color-header);
 }
 
 .subtitulo3 {
@@ -225,4 +225,38 @@ ul li a:hover {
     margin: 20px 0; 
     font-size: 20px;
     font-family: var(--fonte-secundaria);
+}
+
+.inform6{
+    background: var(--color-header);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: var(--font-secundaria);
+    font-size: 17px;
+    color: var(--color-text-light);
+    padding: 40px;
+    text-align: center;
+}
+
+.imgprojeto2{
+    width: 400px;
+    height: 500px;
+    border: 5px solid var(--color-text-black);
+}
+
+.textoprojeto{
+    max-width: 550px;
+}
+
+.imform7{
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    font-family: var(--font-secundaria);
+    font-size: 17px;
+}
+
+.imgprojeto3{
+    border: 5px solid var(--color-header);
 }
