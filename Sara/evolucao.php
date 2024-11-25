@@ -53,7 +53,6 @@
             <p>Termos e condições de uso | Política de Privacidade <br> © Sara Ajala. Todos os direitos reservados.</p>
         </div>
     </footer>
-
 </body>
 
 </html>
