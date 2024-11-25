@@ -30,7 +30,11 @@
             color: black;
             display: flex;
             align-items: center;
+            transition: transform 0.3s ease-in-out;
 
+        }
+        a:hover{
+            transform: scale(1.1);
         }
 
         .trabalhos {
@@ -88,29 +92,29 @@
     <div class="trabalhos">
 
         <div class="trabalho1">
-            <img src="img/trabalho roberto.png" alt="">
-
+            <a href="Roberto/evolução.php"><img src="img/trabalho roberto.png" alt=""></a>
             <div class="link">
                 <a href="Roberto/evolução.php">Trabalho Roberto</a>
             </div>
         </div>
         <div class="trabalho2">
-            <img src="img/trabalho sara.png" alt="">
+            <a href="Sara/evolucao.php"><img src="img/trabalho sara.png" alt=""></a>
+
             <div class="link">
                 <a href="Sara/evolucao.php">Trabalho Sara</a>
             </div>
         </div>
         <div class="trabalho3">
-            <img src="img/trabalho paulo.png" alt="">
+            <a href="Paulo/GamingAtlas/view/index.php"><img src="img/trabalho paulo.png" alt=""></a>
             <div class="link">
-                <a href="Paulo/GamingAtlas/view/bemvindo.php">Trabalho Paulo</a>
+                <a href="Paulo/GamingAtlas/view/index.php">Trabalho Paulo</a>
             </div>
         </div>
 
         <div class="trabalho4">
-            <img src="img/Trabalho andre.png" alt="">
+            <a href="andre/evolucao.php"><img src="img/Trabalho andre.png" alt=""></a>
             <div class="link">
-                <a href="#">Trabalho André</a>
+                <a href="andre/evolucao.php">Trabalho André</a>
             </div>
         </div>
     </div>
@@ -118,28 +122,35 @@
     <div class="trabalhos">
 
         <div class="trabalho5">
-            <img src="img/trabalho Octavio.png" alt="">
+            <a href="octavio/index.html">
+                <img src="img/trabalho Octavio.png" alt=""></a>
             <div class="link">
                 <a href="octavio/index.html">Trabalho Octavio</a>
             </div>
         </div>
         <div class="trabalho6">
-            <img src="img/trabalho kauany.png" alt="">
+            <a href="Kauany/index.php">
+                <img src="img/trabalho kauany.png" alt="">
+            </a>
             <div class="link">
                 <a href="Kauany/index.php">Trabalho Kauany</a>
             </div>
         </div>
         <div class="trabalho7">
-            <img src="#" alt="">
+            <a href="Gui/index.php">
+                <img src="img/Trabalho Guilherme.png" alt=""></a>
             <div class="link">
-                <a href="">Trabalho Guilherme</a>
-            </div>
-            <div class="trabalho8">
-                <img src="img/Trabalho Angelo.png" alt="">
-                <div class="link">
-                    <a href="angelo/index.php">Trabalho Angelo</a></div>
+                <a href="Gui/index.php">Trabalho Guilherme</a>
             </div>
         </div>
+        <div class="trabalho8">
+            <a href="angelo/index.php">
+            <img src="img/Trabalho Angelo.png" alt=""></a>
+            <div class="link">
+                <a href="angelo/index.php">Trabalho Angelo</a>
+            </div>
+        </div>
+
     </div>
 
 </body>
