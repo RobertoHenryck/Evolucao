@@ -27,13 +27,14 @@
     </section>
 
     <section class="inform5">
-        <h3 class="subtitulo3">Primeiras Informações</h3>
+        <h3 class="subtitulo6">Primeiras Informações</h3>
         <div class="content-wrapper">
             <img class="imgprofissoes" src="img/Captura de tela 2024-11-21 15123.png" alt="profissões">
             <p>Com a influência dos professores, construímos a partir de campos e parâmetros diferentes funções durante essa tarefa, como por exemplo, listas e carrosséis de imagens de forma simples e dinâmica.</p>
             <img class="imgprofissoes" src="img/carrossel.png" alt="carrossel">
         </div>
     </section>
+
 
     <section class="inform6">
         <img class="imgprojeto2" src="img/cozinhando.jpg" alt="cozinhando">
