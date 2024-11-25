@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Pacifico&family=Poetsen+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #091540;
+    background-image: url(bg.jpg);
+    backdrop-filter: blur(5px);
+    color: #fff;
+}
+
+.descripition {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.descripition h3 {
+    font-size: 27px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.descripition p {
+    font-size: 16px;
+    margin-bottom: -30px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.gallery {
+    height: auto;
+    display: flex;
+    margin-right: 10px;
+    margin-top: 50px;
+    justify-content: right;
+    gap: 10px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 40px;
+    height: 175px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.3s;
+    filter: grayscale(100%);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.gallery-item:hover {
+    width: 200px;
+    /* Alterar o tamanho  */
+    filter: grayscale(0);
+}
+
+.gallery-item:hover .descripition {
+    transition-delay: 0.1s;
+    opacity: 1;
+}
+
+.gallery-item:not(:hover) {
+    width: 40px;
+}
+
+
+header {
+    background-color: #393c3d;
+    border: rgb(243, 170, 46) solid 2px;
+    display: flex;
+    height: 235px;
+    width: 99%;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.logo img {
+    max-width: 80%;
+    min-width: 50%;
+    height: auto;
+    max-height: 300px;
+    display: flex;
+    justify-content: left;
+}
+
+.logo {
+    max-width: 95%;
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        display: none;
+        /* Esconder a imagem */
+    }
+}
+
+.textologo p {
+    text-align: center;
+    margin-top: -0px;
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 155px;
+    font-size: clamp(1rem, 2vw + 2rem, 3.75rem);
+}
+
+.textologo1 p {
+    text-align: center;
+
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 155px;
+    font-size: clamp(1rem, 4vw + 1rem, 3rem);
+    margin: 0;
+}
+
+.textologo1 {
+    text-align: center;
+    padding: 20px;
+    max-width: 80%;
+}
+
+.textologo {
+    text-align: center;
+    max-width: 80%;
+}
+
+.camposestrelas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: #393c3d;
+    border: 2px solid rgb(243, 170, 46);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.dados,
+.relato {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dados label,
+.relato textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.dados input,
+.relato textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 20%;
+    position: relative;
+    text-align: center;
+}
+
+.rating label:before {
+    content: '\f005';
+    font-family: FontAwesome;
+    font-size: 2em;
+    color: #0e1316;
+}
+
+.rating label:after {
+    content: '\f005';
+    font-family: FontAwesome;
+    font-size: 2em;
+    color: #ffff00;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.rating label:hover:after,
+.rating label:hover~label:after,
+.rating input:checked~label:after {
+    opacity: 1;
+}
