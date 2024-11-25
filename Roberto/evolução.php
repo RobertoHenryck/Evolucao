@@ -18,6 +18,7 @@
     gap: 20px;
     box-shadow: 2px 2px 2px  black;
     border-radius: 10px;
+    
 }
 a{
     border-radius: 10px;
@@ -26,18 +27,24 @@ a{
     color: #023047;
     background-color: #219ebc;
     width: 150px;
-    height:30px;
+    height:40px;
     text-align: center;
     font-size:15px;
+    
+
+    
 }
 h1{
     color: #023047;
     margin-top: -10px;
+    text-align: center;
     
 }
 body{
     margin-top: 200px;
     background-color: #669bbc;
+    align-items: center;
+    text-align: center;
 }
     </style>
 </head>
