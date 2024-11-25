@@ -374,14 +374,14 @@ ul li a:hover {
     text-align: center;
 }
 
-/* Estilo comum para todas as seções */
+
 .content-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 8%;
 }
 
 .content-wrapper.reverse {
@@ -438,4 +438,61 @@ p {
     font-size: 35px;
     margin-bottom: 20px;
     text-align: center;
+}
+
+/* Seções com alternância de cores */
+.section-black {
+    background: var(--color-header);
+    color: var(--color-text-light);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-white {
+    background: var(--color-background);
+    color: var(--color-text-black);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Título das seções */
+.subtitulo3 {
+    font-family: var(--font-primaria);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* Layout das seções */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.img-evolucao {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px var(--color-shadow);
+    border: 5px solid var(--color-text-black);
+}
+
+/* Hover nas imagens */
+.img-evolucao:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    border-color: var(--color-hover);
+}
+
+/* Texto das seções */
+.content-wrapper p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
 }
