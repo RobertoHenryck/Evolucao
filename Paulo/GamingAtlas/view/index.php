@@ -22,7 +22,7 @@
                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                <!--menu de navegação com os dados-->
                <div class="menu">
-                   <li><a href="index.html">Home</a></li>
+                   <li><a href="antigo.html">trabalho antigo </a></li>
                    <li><a href="login.php">Login</a></li>
                    <li><a href="cadastro.php">Cadastre-se</a></li>
                    

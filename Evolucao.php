@@ -22,6 +22,7 @@
 <a href="andre/evolucao.php">Trabalho do André</a>
 <a href="#">Trabalho do Octavio</a>
 <a href="Kauany/index.php">Trabalho da Kauany</a>
+<a href="Paulo/GamingAtlas/view/index.php">Trabalho de Paulo </a>
 
 </div>
     
