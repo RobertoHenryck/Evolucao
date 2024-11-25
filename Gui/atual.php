@@ -11,18 +11,18 @@
 <body>
     <header>
         <div class="logo">
-            <h1>Site ANTIGO</h1>
+            <h1>Site ATUAL</h1>
 
         </div>
 
         <div class="botoes">
             <div class="proximo">
-                <a href="index.php">Voltar</a>
+                <a href="atual.php">Voltar</a>
             </div>
 
 
             <div class="proximo">
-                <a href="atual.php">Proximo</a>
+                <a href="conclusao.php">Proximo</a>
             </div>
         </div>
 
@@ -37,7 +37,7 @@
         <div>
             <div>
                 <p>Essa foi a página Inicial, a qual apresentei na primeira Feira de Tecnologia:</p>
-                <div><img src="paginafrente.png" alt=""></div>
+                <div><img src="novosite.png" alt=""></div>
             </div>
 
             <div>
@@ -61,12 +61,12 @@
 
     <div class="botoes">
         <div class="proximo">
-            <a href="index.php">Voltar</a>
+            <a href="atual.php">Voltar</a>
         </div>
 
 
         <div class="proximo">
-            <a href="atual.php">Proximo</a>
+            <a href="conclusao.php">Proximo</a>
         </div>
     </div>
 
