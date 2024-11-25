@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>ELIS REGINA-HOME</title>
+</head>
+
+<body class="tudo">
+    <header class="cabecalho">
+        <a class="titula" href="index.html"> <h2 class="titulo">Elis Regina</h2></a>
+       
+
+        <div class="menu">
+            <ul>
+                <a class="link" href="sobre.html"><li>Sobre</li></a>
+                <a class="link" href="galeria.html"><li>Galeria</li></a>
+                <a class="link" href="musica.html"><li>Música</li></a>
+                <a class="link" href="contatos.html"><li>Contato</li></a>
+                
+            </ul>
+        </div>
+
+        <div class="imagens">
+            <img class="img1" src="imagens/instagram.png" alt="instagram">
+            <img class="img2" src="imagens/spotify (2).png" alt="spotify">
+            <img class="img3" src="imagens/squarespace.png" alt="squarespace">
+        </div>
+    </header>
+
+    <body>
+        <section class="contato">
+            <h2>Entre em Contato</h2>
+            
+            <form action="enviar-contato.php" method="post">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" name="sobrenome" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                </div>
+    
+                <div class="input-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    <footer class="rodape2">
+        <div>
+            <p>Termos e condições de uso | Política de Privacidade <br> <img src="imagens/copyright-branco.png"
+                    alt="copyright"> Sara Ajala. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
