@@ -260,3 +260,101 @@ ul li a:hover {
 .imgprojeto3{
     border: 5px solid var(--color-header);
 }
+
+.inform8{
+    background: var(--color-header);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: var(--color-text-light);
+    font-size: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.imgatual{
+    width: 450px;
+    height: 600px;
+    border: 5px solid var(--color-text-black);
+}
+
+.inform9{
+    padding: 10%;
+    text-align: center;
+}
+
+.inform10 {
+    background: var(--color-header);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 5%;
+}
+
+.imagens-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px; 
+    margin-bottom: 20px;
+}
+
+.imgatual {
+    max-width: 550px; 
+    height: 600px; 
+}
+
+.texto-container {
+    color: var(--color-text-light);
+    font-family: var(--fonte-secundaria);
+    font-size: 17px;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+.inform11 {
+    color: var(--color-text-black);
+    font-family: var(--font-secundaria);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subtitulo3 {
+    font-family: var(--font-primaria);
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: var(--color-text-light);
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: var(--color-hover);
+    border: 2px solid var(--color-text-black);
+    box-shadow: 0 4px 10px var(--color-shadow);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.testimonial p {
+    margin: 10px 0;
+}
+
+.author {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--color-header);
+    text-align: right;
+}
