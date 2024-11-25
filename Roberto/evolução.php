@@ -15,21 +15,24 @@
     background-color: #caf0f8;
     width: 300px;
     height: 350px;
-    gap: 20px;
+    gap: 15px;
     box-shadow: 2px 2px 2px  black;
     border-radius: 10px;
     
 }
 a{
+    display: flex;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #023e8a;
     text-decoration: none;
     color: #023047;
-    background-color: #219ebc;
+    background-color: #8ecae6;
     width: 150px;
     height:40px;
     text-align: center;
     font-size:15px;
+    justify-content: center;
+    align-items: center;
     
 
     
@@ -42,7 +45,7 @@ h1{
 }
 body{
     margin-top: 200px;
-    background-color: #669bbc;
+    background-color: #8ecae6   ;
     align-items: center;
     text-align: center;
 }
