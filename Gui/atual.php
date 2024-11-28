@@ -17,7 +17,7 @@
 
         <div class="botoes">
             <div class="proximo">
-                <a href="atual.php">Voltar</a>
+                <a href="antiga.php">Voltar</a>
             </div>
 
 
@@ -36,21 +36,21 @@
 
         <div>
             <div>
-                <p>Essa foi a página Inicial, a qual apresentei na primeira Feira de Tecnologia:</p>
+                <p>Essa foi a página Inicial, feita em dupla:</p>
                 <div><img src="novosite.png" alt=""></div>
             </div>
 
             <div>
-                <p>Coloquei em prática tudo o que aprendi, desenvolvendo uma página para apresentar a profissão
-                    caminhoneiro, divindo essa em outras, separadas em profissão, marcas famosas, empresas envolvidas...
+                <p>Esse trabalho, diferente do outro, envolve uma parte maior de códigos, fazendo tudo funcionar
+                    adequadamente com o proposto:
                 </p>
-                <div><img src="empresas.png" alt=""></div>  
-                <div><img src="outraparte.png" alt=""></div>
+                <div><img src="login.png" alt=""></div>
+                <div><img src="hobby.png" alt=""></div>
             </div>
-            
+
             <div>
-                <p>No fim uma pagina para contatos onde esta localizada o feedback.</p>
-                <div><img src="futer.png" alt=""></div>
+                <p>Para finalizar uma página para que o usuário mudasse sua foto de perfil:</p>
+                <div><img src="editar.png" alt=""></div>
             </div>
 
         </div>
@@ -61,7 +61,7 @@
 
     <div class="botoes">
         <div class="proximo">
-            <a href="atual.php">Voltar</a>
+            <a href="antiga.php">Voltar</a>
         </div>
 
 
