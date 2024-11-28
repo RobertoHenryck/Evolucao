@@ -1,0 +1,112 @@
+body{
+    background-color: #f1ebeb;
+}
+
+
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: solid black 1px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #cacaca;
+
+    
+}
+
+main{
+   display: flex;
+   justify-content: center; 
+}
+
+.menu{
+    text-align: center;
+    background-color: #cacaca;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 2px 2px 3px;
+}
+
+.menu a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #eee8e8;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px black;
+}
+
+.menu a:hover{
+    box-shadow: none;
+    color: rgb(85, 85, 85);
+}
+
+.menu h1 {
+    font-size: 20px;
+}
+
+.container img{
+    width: 80%;
+    
+}
+
+.container{
+   
+    text-align: center;
+    box-shadow: 2px 2px 5px 1px;
+}
+
+.proximo a{
+background-color: #cacaca;
+border-radius: 30px;
+padding: 20px;
+text-decoration: none;
+color: black;
+box-shadow: 2px 2px 10px;
+}
+
+.proximo a{
+  box-shadow: 2px 2px 10px;  
+}
+
+.proximo a:hover{
+    box-shadow: none;
+    color: gray;
+}
+
+.proximo{
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    
+}

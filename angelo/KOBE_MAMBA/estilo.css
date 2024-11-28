@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.header {
+    background: linear-gradient(90deg, #6a0dad, #ffdd00);
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.header-logo {
+    width: 295px;
+    height: 185px;
+    
+}
+
+.header-title {
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.text-left, .text-right {
+    flex: 1;
+}
+
+.text-left {
+    text-align: right;
+    font-size: 33px;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-right {
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content-image {
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+
+.image-left {
+    width: 450px;
+    height: 180;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-section .text-right {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.image-text-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+
+    .header-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-title {
+        font-size: 20px;
+    }
+
+}
