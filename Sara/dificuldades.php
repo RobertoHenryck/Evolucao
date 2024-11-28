@@ -18,6 +18,7 @@
             <li><a class="link" href="dificuldades.php">Dificuldades</a></li>
             <li><a class="link" href="evolucaopessoal.php">Evolução Pessoal</a></li>
             <li><a class="link" href="contatos.php">Contatos</a></li>
+            <li><a class="link" href="../Evolucao.php">Sair</a></li>
         </ul>
     </header>
 
