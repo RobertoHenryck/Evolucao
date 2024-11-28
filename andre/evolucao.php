@@ -9,20 +9,15 @@
 <body>
            
             
-            <div class="container"> 
+            <div class="container2"> 
                 <h1>Evoluçao</h1>
             <a href="primeiro-projeto.html"><button>Primeiro Projeto</button></a>
                 
-            <br><br>
             <a href="projeto-atual.html"><button>Projeto Atual</button></a>
-            <br><br>
                 
             <a href="dificuldades-encontradas.html"><button>Dificuldades Encontradas</button></a>
             </button>
-            <br><br>
-            <button>
-                Evolucao Pessoal
-            </button>
+           
         </div>
 
        
