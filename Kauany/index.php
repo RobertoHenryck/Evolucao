@@ -15,6 +15,7 @@
                 <li><a href="index.php">Início</a></li>
                 <li><a href="saiba.php">Sobre</a></li>
                 <li><a href="contato.php">Contato</a></li>
+                <li><a href="../Evolucao.php">Projetos do grupo</a></li>
             </ul>
         </nav>
     </header>
