@@ -16,6 +16,7 @@
             <a href="projeto-atual.html"><button>Projeto Atual</button></a>
                 
             <a href="dificuldades-encontradas.html"><button>Dificuldades Encontradas</button></a>
+            <a href="../Evolucao.php"><button>Projetos do grupo</button></a>
             </button>
            
         </div>
