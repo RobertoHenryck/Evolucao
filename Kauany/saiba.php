@@ -13,7 +13,7 @@
             <div class="logo">Evolução</div>
             <ul class="nav-links">
                 <li><a href="index.php">Início</a></li>
-                <li><a href="saiba.php">Sobre</a></li>
+                <li><a href="inicio.php">Projetos</a></li>
                 <li><a href="contato.php">Contato</a></li>
             </ul>
         </nav>
@@ -22,19 +22,14 @@
     <!-- Seção Principal -->
     <main>
         <section class="hero">
-            <h1>Bem-vindo ao Site sobre Evoluções</h1>
-            <p>Refletindo sobre nossa jornada e os aprendizados adquiridos ao longo do tempo.</p>
+            <h1>Saiba mais sobre o site</h1>
         </section>
 
         <section id="sobre" class="content">
-            <h2>Saiba mais</h2>
-            <br>
-            <ul>
-                <li><a href="inicio.php">CLIQUE AQUI</a></li>
-            </ul>
+            <h2>Sobre o site</h2>
+            <p>Este site é uma demonstração do progresso individual ao longo do curso. Aqui, você encontrará nossas reflexões, desafios e conquistas. Verá também sobre a evolução no curso, como eu me sai no primeiro projeto, como melhorei, oque aprendi, e vai acompanhar como está o andamento do meu projeto atual e a minha evolução.</p>
       
-        </section>
-    
+        </section>  
     </main>
 
     <!-- Rodapé -->

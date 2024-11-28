@@ -11,7 +11,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background-color: rgba(98, 0, 234, 0.9); /* Fundo semi-transparente */
+    background-color: rgba(98, 0, 234, 0.9);
     color: white;
 }
 
@@ -23,20 +23,61 @@ header h1 {
 /* Container Principal */
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Espaço entre os itens */
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Garante que os itens não quebrem linha */
     padding: 20px;
     gap: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo translúcido para containers */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     margin: 20px auto;
     max-width: 1200px;
+    overflow-x: auto; /* Adiciona rolagem horizontal para telas pequenas */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+    background-color: #fff;
 }
 
 /* Estilo dos Boxes */
 .box {
-    flex: 1 1 calc(30% - 20px); /* Cada box ocupa ~30% do espaço disponível */
+    flex: 0 0 30%; /* Garante que cada box ocupe 30% da largura do container */
     background-color: white;
     border: 2px solid #6200ea;
     border-radius: 8px;
@@ -44,22 +85,22 @@ header h1 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     text-align: center;
+    overflow: hidden;
 }
 
 /* Imagem nos Containers */
 .box img.box-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* Deixa a imagem circular */
-    margin-bottom: 10px;
+    width: 100%;
+    height: 50%;
     object-fit: cover;
+    border-bottom: 2px solid #6200ea;
 }
 
 /* Títulos e Parágrafos */
 .box h2 {
     font-size: 1.5em;
     color: #6200ea;
-    margin: 10px 0;
+    margin: 15px 0 10px;
 }
 
 .box p {
