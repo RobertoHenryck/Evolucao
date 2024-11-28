@@ -130,7 +130,7 @@
         </div>
         <div class="trabalho6">
             <a href="Kauany/index.php">
-                <img src="img/trabalho kauany.png" alt="">
+                <img src="img/Site kauany.png" alt="">
             </a>
             <div class="link">
                 <a href="Kauany/index.php">Trabalho Kauany</a>
