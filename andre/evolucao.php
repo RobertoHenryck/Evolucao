@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - Spotify</title>
+    <title>Evolucao</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,22 +11,18 @@
             
             <div class="container"> 
                 <h1>Evoluçao</h1>
-            <button>
+            <a href="primeiro-projeto.html"><button>Primeiro Projeto</button></a>
                 
-                Primeiro Projeto
-            </button>
             <br><br>
-            <button>
-                
-                Projeto Atual
-            </button>
+            <a href="projeto-atual.html"><button>Projeto Atual</button></a>
             <br><br>
-            <button>
                 
-                Dificuldades Encontradas
+            <a href="dificuldades-encontradas.html"><button>Dificuldades Encontradas</button></a>
             </button>
             <br><br>
             <button>
                 Evolucao Pessoal
             </button>
         </div>
+
+       
