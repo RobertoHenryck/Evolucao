@@ -7,11 +7,12 @@ body{
     flex-direction: column;
     width: 400px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #181818;
     height: 500px;
     align-items: center;
     margin-top: 150px;
     border-radius: 30px;
+    color: #ffffff;
 }
 h1{
 color: #ffffff;
@@ -28,7 +29,21 @@ button{
     border-radius: 100px;
     color:#ffffff;
     background-color: #000000;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
 }
+
 button:hover{
     background-color: #3BE477;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+img{
+    width: 45vw;
+    border-radius: 1%;
+
 }
