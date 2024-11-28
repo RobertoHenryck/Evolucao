@@ -24,6 +24,7 @@
             <div class="link"><a href="antiga.php">Página Antiga</a></div>
             <div class="link"><a href="atual.php">Página Atual</a></div>
             <div class="link"><a href="conclusao.php">Conclusão</a></div>
+            <div class="link"><a href="../Evolucao.php">Projetos do Grupo</a></div>
         </div>
     </main>
     <footer>

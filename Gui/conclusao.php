@@ -45,7 +45,7 @@
 
     <div class="botoes">
         <div class="proximo">
-            <a href="antiga.php">Voltar</a>
+            <a href="index.php">Início</a>
         </div>
 
     </div>
