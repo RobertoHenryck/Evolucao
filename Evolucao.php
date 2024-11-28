@@ -9,7 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
 
         body {
-            background-color: #cbf3f0;
+            background-color: #e9ecef;
             padding: 0;
             margin: 0;
             font-family: "Parkinsans", sans-serif;

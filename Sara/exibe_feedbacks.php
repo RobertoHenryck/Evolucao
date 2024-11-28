@@ -18,6 +18,7 @@
             <li><a class="link" href="dificuldades.php">Dificuldades</a></li>
             <li><a class="link" href="evolucaopessoal.php">Evolução Pessoal</a></li>
             <li><a class="link" href="contatos.php">Contatos</a></li>
+            <li><a class="link" href="../Evolucao.php">Sair</a></li>
         </ul>
     </header>
 
@@ -29,15 +30,14 @@ if (file_exists($file)) {
     $feedbacks = json_decode($data, true); 
 
     if (is_array($feedbacks)) {
-        echo "<h1>Feedbacks Recebidos</h1>";
+        echo "<h3 class='subtitulo8'>Feedbacks Recebidos</h3>";
 
         foreach ($feedbacks as $feedback) {
-            
             $name = isset($feedback['name']) ? $feedback['name'] : "Não informado";
             $email = isset($feedback['email']) ? $feedback['email'] : "Não informado";
             $mensagem = isset($feedback['mensagem']) ? $feedback['mensagem'] : "Sem mensagem";
-
-            echo "<div style='border: 1px solid #ddd; margin: 10px; padding: 10px;'>";
+        
+            echo "<div class='feedback-card'>";
             echo "<strong>Nome:</strong> " . htmlspecialchars($name) . "<br>";
             echo "<strong>E-mail:</strong> " . htmlspecialchars($email) . "<br>";
             echo "<strong>Mensagem:</strong> " . htmlspecialchars($mensagem) . "<br>";

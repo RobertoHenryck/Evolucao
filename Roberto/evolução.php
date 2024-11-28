@@ -79,6 +79,7 @@
         <a href="projeto_atual.html">Meu projeto atual</a>
         <a href="dificuldades.html">Dificuldades</a>
         <a href="evolucao_pessoal.html">Evolução Pessoal</a>
+        <a href="../Evolucao.php">Projetos do Grupo</a>
     </div>
 
 </body>

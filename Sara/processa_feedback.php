@@ -20,7 +20,8 @@
             <li><a class="link" href="contatos.php">Contatos</a></li>
         </ul>
     </header>
-    <?php
+
+   <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_POST["name"] ?? "");
     $email = htmlspecialchars($_POST["email"] ?? "");
@@ -38,7 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $current_data = file_get_contents($file);
         $array_data = json_decode($current_data, true);
 
-       
         if (!is_array($array_data)) {
             $array_data = [];
         }
@@ -50,15 +50,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $final_data = json_encode($array_data, JSON_PRETTY_PRINT);
     }
 
-   
+    echo '<div class="mensagem-feedback">';
     if (file_put_contents($file, $final_data)) {
         echo "Feedback enviado com sucesso!";
         echo '<br><a href="exibe_feedbacks.php">Ver Feedbacks</a>';
     } else {
         echo "Erro ao salvar o feedback. Tente novamente!";
     }
+    echo '</div>';
 }
 ?>
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 

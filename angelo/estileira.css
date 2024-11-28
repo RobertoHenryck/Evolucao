@@ -131,6 +131,8 @@ body {
     font-size: 16px; /* Tamanho da fonte */
     font-weight: bold; /* Texto em negrito */
     transition: background-color 0.3s ease; /* Efeito suave ao passar o mouse */
+ 
+    
 }
 
 .header-button:hover {
