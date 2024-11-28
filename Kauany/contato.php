@@ -12,7 +12,6 @@
             <div class="logo">Contato</div>
             <ul class="nav-links">
                 <li><a href="index.php">Início</a></li>
-                <li><a href="#formulario">Fale Conosco</a></li>
             </ul>
         </nav>
         <h1>Entre em Contato</h1>
